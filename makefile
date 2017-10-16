@@ -1,5 +1,5 @@
 DIRS = lib myapp
-.PHONY: all clean
+.PHONY: all clear
 
 all:
 	@for d in $(DIRS);\
