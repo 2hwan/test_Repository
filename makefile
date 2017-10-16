@@ -7,7 +7,7 @@ all:
 		$(MAKE) -C $$d;\
 	done
 
-clean:
+clear:
 	@for d in $(DIRS);\
 	do\
 		$(MAKE) -C $$d clean;\
